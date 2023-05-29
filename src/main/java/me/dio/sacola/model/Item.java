@@ -21,7 +21,6 @@ public class Item {
     @OneToOne
     private Produto produto;
     private int quantidade;
-    private String nome;
     @ManyToOne
     @JsonIgnore
     private Sacola sacola;
